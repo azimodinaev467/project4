@@ -66,6 +66,249 @@
 
   
 </section>
-    
+    <div class="min-h-screen bg-gradient-to-br from-zinc-900 to-zinc-800 text-white font-['Inter'] p-6 md:p-12">
+
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-3xl md:text-[60px] font-semibold mb-6">
+      Заголовок H1 <span class="font-normal">Font Inter 60px</span>
+    </h1>
+
+    <div class="text-sm text-zinc-400 mb-10">
+      <div class="mb-1">Хлебные крошки</div>
+      <div>Главная - Главная - Главная</div>
+    </div>
+
+    <!-- Карточки -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Левая форма -->
+      <div class="bg-zinc-900/70 backdrop-blur-md rounded-2xl shadow-2xl p-8">
+        <h2 class="text-3xl md:text-4xl font-semibold text-amber-500 mb-6">
+          Заполните поля
+        </h2>
+
+        <div class="space-y-4">
+          <input type="text" placeholder="Имя"
+            class="w-full bg-transparent border border-zinc-500 rounded-full px-5 py-3 focus:outline-none focus:border-amber-500 transition">
+
+          <input type="text" placeholder="Телефон"
+            class="w-full bg-transparent border border-zinc-500 rounded-full px-5 py-3 focus:outline-none focus:border-amber-500 transition">
+
+          <input type="email" placeholder="E-mail"
+            class="w-full bg-transparent border border-zinc-500 rounded-full px-5 py-3 focus:outline-none focus:border-amber-500 transition">
+
+          <label class="flex items-center gap-2 text-sm text-zinc-400">
+            <input type="checkbox" class="accent-amber-500">
+            Соглашаюсь на обработку персональных данных
+          </label>
+
+          <button
+            class="w-full bg-amber-600 hover:bg-amber-500 text-white rounded-full py-3 mt-4 transition">
+            Отправить
+          </button>
+        </div>
+      </div>
+
+      <div class="bg-zinc-900/70 backdrop-blur-md rounded-2xl shadow-2xl p-8">
+        <h2 class="text-3xl md:text-4xl font-semibold text-amber-500 mb-6">
+          Авторизации
+        </h2>
+
+        <div class="space-y-4">
+          <input type="email" placeholder="E-mail"
+            class="w-full bg-transparent border border-zinc-500 rounded-full px-5 py-3 focus:outline-none focus:border-amber-500 transition">
+
+          <div class="relative">
+            <input type="password" placeholder="Пароль"
+              class="w-full bg-transparent border border-zinc-500 rounded-full px-5 py-3 pr-12 focus:outline-none focus:border-amber-500 transition">
+            <span class="absolute right-4 top-1/2 -translate-y-1/2 text-zinc-400 cursor-pointer">
+              👁
+            </span>
+          </div>
+
+          <a href="#" class="block text-sm text-amber-500 hover:underline text-right">
+            Восстановить пароль
+          </a>
+
+          <button
+            class="w-full bg-amber-600 hover:bg-amber-500 text-white rounded-full py-3 mt-4 transition">
+            Отправить
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<div class="max-w-6xl mx-auto space-y-12">
+
+    <div class="space-y-4">
+      <h2 class="text-xl font-semibold">Элементы чекбоксов, радио <br> кнопок, выбор из списка</h2>
+
+      <label class="flex items-center gap-3 cursor-pointer">
+        <input type="checkbox" class="w-4 h-4 accent-amber-600 bg-transparent border-zinc-500">
+        <span>Соглашаюсь на обработку персональных данных</span>
+      </label>
+
+      <label class="flex items-center gap-3 cursor-pointer">
+        <input type="checkbox" checked class="w-4 h-4 accent-amber-600 bg-transparent border-zinc-500">
+        <span>Соглашаюсь на обработку персональных данных</span>
+      </label>
+    </div>
+
+    <div class="grid grid-cols-2 gap-20">
+
+      <div class="space-y-4">
+        <h3 class="font-medium">Радио-кнопки</h3>
+
+        <label class="flex items-center gap-3 cursor-pointer">
+          <input type="radio" name="radio1" class="w-4 h-4 accent-amber-600">
+          <span>Радио-кнопка 1</span>
+        </label>
+
+        <label class="flex items-center gap-3 cursor-pointer">
+          <input type="radio" name="radio1" class="w-4 h-4 accent-amber-600">
+          <span>Радио-кнопка 2</span>
+        </label>
+
+        <label class="flex items-center gap-3 cursor-pointer">
+          <input type="radio" name="radio1" class="w-4 h-4 accent-amber-600">
+          <span>Радио-кнопка 3</span>
+        </label>
+      </div>
+
+      <div class="space-y-4">
+        <h3 class="font-medium">Активная Радио-кнопка</h3>
+
+        <label class="flex items-center gap-3 cursor-pointer">
+          <input type="radio" name="radio2" checked class="w-4 h-4 accent-amber-600">
+          <span>Радио-кнопка 1</span>
+        </label>
+
+        <label class="flex items-center gap-3 cursor-pointer">
+          <input type="radio" name="radio2" class="w-4 h-4 accent-amber-600">
+          <span>Радио-кнопка 2</span>
+        </label>
+
+        <label class="flex items-center gap-3 cursor-pointer">
+          <input type="radio" name="radio2" class="w-4 h-4 accent-amber-600">
+          <span>Радио-кнопка 3</span>
+        </label>
+      </div>
+
+    </div>
+
+
+  </div>
+<div class="max-w-6xl mx-auto space-y-24">
+
+  <!-- SELECT -->
+  <div class="space-y-6">
+    <h2 class="text-xl font-medium tracking-wide">выбор из списка</h2>
+
+    <div class="flex gap-12">
+
+      <!-- Закрытый -->
+      <div class="relative w-72">
+        <select class="w-full bg-transparent border border-gray-500 rounded-md px-4 py-2 appearance-none focus:outline-none focus:border-gray-300">
+          <option>Lorem ipsun</option>
+          <option>Lorem ipsum, dolor smit</option>
+          <option>Lorem ipsum, dolor smit</option>
+        </select>
+
+        <!-- стрелка -->
+        <div class="pointer-events-none absolute inset-y-0 right-3 flex items-center text-gray-400">
+          ▼
+        </div>
+      </div>
+
+      <div class="relative w-80">
+        <div class="relative">
+          <div class="w-full bg-transparent border border-gray-500 rounded-t-md px-4 py-2 flex justify-between items-center">
+            <span>Lorem ipsun</span>
+            <span class="text-gray-400">▲</span>
+          </div>
+
+          <select size="6"
+            class="w-full bg-[#1f1f1f] border border-t-0 border-gray-500 rounded-b-md px-4 py-2 focus:outline-none">
+            <option class="py-1">Lorem ipsun, dolor smit</option>
+            <option>Lorem ipsun, dolor smit</option>
+            <option>Lorem ipsun, dolor smit</option>
+            <option>Lorem ipsun, dolor smit</option>
+            <option>Lorem ipsun, dolor smit</option>
+            <option>Lorem ipsun, dolor smit</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-40">
+
+    <div>
+      <h3 class="text-lg mb-6 font-medium">неупорядоченный</h3>
+
+      <ul class="space-y-2 text-gray-300">
+        <li class="flex gap-3">
+          <span>•</span> Lorem ipsun, dolor smit
+        </li>
+        <li class="flex gap-3">
+          <span>•</span> Lorem ipsun, dolor smit
+        </li>
+        <li class="flex gap-3">
+          <span>•</span> Lorem ipsun, dolor smitLorem ipsun, dolor smit
+        </li>
+        <li class="flex gap-3">
+          <span>•</span> Lorem ipsun, dolor smit
+        </li>
+        <li class="flex gap-3">
+          <span>•</span> Lorem ipsun, dolor smitLorem ipsun, dolor smit
+        </li>
+        <li class="flex gap-3">
+          <span>•</span> Lorem ipsun, dolor smit
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-lg mb-6 font-medium">упорядоченный</h3>
+
+      <ol class="space-y-6 text-gray-300 list-decimal list-inside">
+
+        <li>
+          Lorem ipsun, dolor smit
+          <ul class="mt-3 ml-6 space-y-2">
+            <li class="flex gap-3">
+              <span>•</span> Lorem ipsun, dolor smit
+            </li>
+            <li class="flex gap-3">
+              <span>•</span> Lorem ipsun, dolor smit
+            </li>
+            <li class="flex gap-3">
+              <span>•</span> Lorem ipsun, dolor smit
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          Lorem ipsun, dolor smit
+          <ul class="mt-3 ml-6 space-y-2">
+            <li class="flex gap-3">
+              <span>•</span> Lorem ipsun, dolor smit
+            </li>
+            <li class="flex gap-3">
+              <span>•</span> Lorem ipsun, dolor smit
+            </li>
+          </ul>
+        </li>
+
+      </ol>
+    </div>
+
+  </div>
+
+</div>
+</div>
+
 </body>
 </html>
