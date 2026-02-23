@@ -38,7 +38,7 @@
             <div class="flex items-center justify-center py-4">
 
                 <ul class="hidden md:flex gap-8 font-medium">
-                    <li><a href="#" class="hover:text-black transition">project2</a></li>
+                    <li><a href="./project2.html" class="hover:text-black transition">project2</a></li>
                     <li><a href="#" class="hover:text-black transition">project3</a></li>
                     <li><a href="#" class="hover:text-black transition">project4</a></li>
                 </ul>
@@ -201,13 +201,11 @@
   </div>
 <div class="max-w-6xl mx-auto space-y-24">
 
-  <!-- SELECT -->
   <div class="space-y-6">
     <h2 class="text-xl font-medium tracking-wide">выбор из списка</h2>
 
     <div class="flex gap-12">
 
-      <!-- Закрытый -->
       <div class="relative w-72">
         <select class="w-full bg-transparent border border-gray-500 rounded-md px-4 py-2 appearance-none focus:outline-none focus:border-gray-300">
           <option>Lorem ipsun</option>
@@ -215,7 +213,6 @@
           <option>Lorem ipsum, dolor smit</option>
         </select>
 
-        <!-- стрелка -->
         <div class="pointer-events-none absolute inset-y-0 right-3 flex items-center text-gray-400">
           ▼
         </div>
@@ -308,7 +305,125 @@
   </div>
 
 </div>
+<!-- BLOCKQUOTE -->
+<section class="px-16 py-20">
+  <div class="max-w-5xl">
+    <h2 class="text-xl mb-8">Блок цитаты blockquote</h2>
+
+    <blockquote class="relative bg-gradient-to-r from-[#4b2f1d] to-[#3a2618] p-8 pl-14 rounded-sm">
+      
+      <!-- левая линия -->
+      <div class="absolute left-0 top-0 bottom-0 w-1 bg-amber-600"></div>
+
+      <!-- кавычка -->
+      <div class="absolute left-6 top-6 text-4xl text-amber-500 opacity-80">
+        “
+      </div>
+
+      <p class="text-sm leading-relaxed text-gray-200">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type 
+        specimen book. It has survived not only five centuries, but also the leap 
+        into electronic typesetting, remaining essentially unchanged. It was 
+        popularised in the 1960s with the release of Letraset sheets containing 
+        Lorem Ipsum passages, and more recently with desktop publishing software 
+        like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+
+      <footer class="mt-6 font-semibold text-white">
+        Lorem Ipsum
+      </footer>
+
+    </blockquote>
+  </div>
+</section>
+
+
+
+<!-- MAP SECTION -->
+<section class="relative">
+
+  <!-- Карта как img -->
+  <img 
+    src="./22de543c4da50960c05ab9b1d504a64caa6a0e30.png" 
+    alt="map"
+    class="w-full h-[600px] "
+  >
+
+  <!-- затемнение -->
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="absolute inset-0 flex items-center px-16">
+    <div class="max-w-md bg-black/70 backdrop-blur-md border border-white/20 rounded-2xl p-10 text-white shadow-2xl">
+      
+      <h2 class="text-4xl font-semibold mb-6">Адреса</h2>
+
+      <p class="text-sm leading-relaxed text-gray-300">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type 
+        specimen book. It has survived not only five centuries, but also the leap 
+        into electronic typesetting, remaining essentially unchanged.
+      </p>
+
+    </div>
+  </div>
+
+</section>
 </div>
+ <header class="max-w-7xl mx-auto px-8 py-6">
+    <div class="flex items-start justify-between">
+      
+      <!-- Left block (Logo + text) -->
+      <div class="flex items-start gap-4">
+        
+      
+
+        <div>
+         <img src="./Refreshoes_LOGO копия 1 (2).png" alt="">
+          <p class="text-gray-400 text-sm mt-2 max-w-xs leading-relaxed">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+        </div>
+      </div>
+      <div class="text-sm text-gray-300 max-w-xs">
+        <p class="mb-4">
+          Lorem Ipsum is simply dummy text of the printing and
+        </p>
+
+        <a href="tel:+79999999999"
+           class="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition">
+          
+          <!-- Phone icon placeholder -->
+          <svg xmlns="http://www.w3.org/2000/svg"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke="currentColor"
+               class="w-4 h-4">
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 5a2 2 0 012-2h2l2 5-2 2a11 11 0 005 5l2-2 5 2v2a2 2 0 01-2 2h-1C8.716 19 5 15.284 5 10V9a2 2 0 01-2-2V5z" />
+          </svg>
+
+          +7 (999) 999-09-99
+        </a>
+      </div>
+
+      <!-- Right navigation -->
+      <nav>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li><a href="#" class="hover:text-white transition">Главная</a></li>
+          <li><a href="#" class="hover:text-white transition">Контентная страница</a></li>
+          <li><a href="#" class="hover:text-white transition">Галерея</a></li>
+          <li><a href="#" class="hover:text-white transition">Видео галерея</a></li>
+          <li><a href="#" class="hover:text-white transition">Фото галерея</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
 
 </body>
 </html>
